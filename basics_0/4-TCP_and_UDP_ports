@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Display listening TCP and UDP sockets along with the PID and program name.
-sudo ss -tunlp
+netstat -p
