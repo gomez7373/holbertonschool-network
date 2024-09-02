@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-nc -l -p 98 -s 127.0.0.1
+# This script listens on port 98 on localhost
+
+# Start listening on port 98
+sudo nc -lk -p 98
